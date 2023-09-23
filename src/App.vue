@@ -1,9 +1,10 @@
+<script setup>
+import MainNavbar from "@/components/navbar/MainNavbar.vue";
+</script>
+
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view />
+  <main-navbar />
 </template>
 
 <style>
